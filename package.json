@@ -1,0 +1,29 @@
+{
+  "name": "enb-bundle-postcss",
+  "version": "0.1.0",
+  "description": "postCSS tech for ENB",
+  "keywords": [
+    "bem",
+    "enbplugin",
+    "postcss",
+    "postcss-runner",
+    "css"
+  ],
+  "dependencies": {
+    "postcss": "^4.1.11",
+    "postcss-import": "^5.2.2",
+    "vow": "^0.4.9"
+  },
+  "peerDependencies": {
+    "enb": ">=0.13.11 <1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tadatuta/enb-bundle-postcss.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tadatuta/enb-bundle-postcss/issues"
+  },
+  "homepage": "https://github.com/tadatuta/enb-bundle-postcss"
+}
