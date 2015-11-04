@@ -15,7 +15,7 @@
     "vow": "^0.4.9"
   },
   "peerDependencies": {
-    "enb": ">=0.13.11 <1.0.0"
+    "enb": ">=0.13.11 <2.0.0"
   },
   "repository": {
     "type": "git",
