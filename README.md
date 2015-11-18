@@ -23,6 +23,7 @@ index c98c578..163bf70 100644
              [techs.stylus, {
 -                target: '?.css',
 +                target: '?.post.css',
++                sourceSuffixes: ['post.css', 'css', 'styl']
                  autoprefixer: {
                      browsers: ['ie >= 10', 'last 2 versions', 'opera 12.1', '> 2%']
                  }
