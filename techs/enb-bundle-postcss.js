@@ -9,6 +9,7 @@ module.exports = require('enb/lib/build-flow').create()
     .target('target', '?.css')
     .useSourceFilename('source', '?.post.css')
     .defineOption('plugins')
+    .defineOption('parser')
     .defineOption('sourcemap', false)
     .builder(function(cssFilename) {
         var def = vow.defer(),
@@ -22,6 +23,7 @@ module.exports = require('enb/lib/build-flow').create()
                     .process(css, {
                         from: filename,
                         to: filename,
+                        parser: _this._parser,
                         map: _this._sourcemap
                     })
                     .catch(function(error) {
